@@ -1,0 +1,49 @@
+1.로그인후 마우스 우측 클릭하여 open terminal
+2. 아래내용 복사 붙여넣기 (ctrl+c, ctrl+shift+V)  하고 메세지 나오면 y
+yum install gcc openssl-devel bzip2-devel libffi-devel
+
+3.업데이트
+yum install wget
+
+4.파이썬 다운로드
+wget https://www.python.org/ftp/python/3.8.1/Python-3.8.1.tgz
+
+5.압축해제
+tar xzf Python-3.8.1.tgz 
+
+6.폴더이동
+cd Python-3.8.1
+
+7.최적화빌드 (30초~1분여정도 소요됨)
+./configure --enable-optimizations
+
+8.설치(1분~3분여정도 소요됨)
+make altinstall
+
+9. 디렉토리 이동  -> root로 이동하여야함.  [user명 /]
+cd ..
+cd ..
+cd usr/local/bin
+
+10. 파이썬 실행
+./python3.8
+
+11. 파이썬 종료
+>>>exit()
+
+12. 파이썬파이프라인 업데이트
+./pip3.8 install --upgrade pip
+
+13. 파이썬 모듈설치
+./pip3.8 install numpy
+./pip3.8 install jupyter
+./pip3.8 install matplotlib
+./pip3.8 install sklearn
+./pip3.8 install pandas
+./pip3.8 install PILLOW
+./pip3.8 install tensorflow-cpu
+
+14. 주피터노트북 실행
+./jupyter-notebook --allow-root
+
+15. 우측상단의 New클릭하고 python3
