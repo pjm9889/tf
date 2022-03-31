@@ -1,0 +1,7 @@
+1. cuda 다운로드
+https://ossci-windows.s3.amazonaws.com/win2016/cuda_10.0.130_411.31_win10.exe
+
+
+
+2. cudnn 사이트 링크 (아래 사이트에서 다운로드 하세요)
+http://sendanywhe.re/E172H3FG
